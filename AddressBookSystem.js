@@ -36,3 +36,11 @@ class AddressBookContact {
     }
 }
 
+/**
+ * Created a new contact
+ */
+let addressBook = new AddressBookContact("Rekha", "patil", "GKW Layout", 
+    "Bangalore", "Karnataka", 560058, "8095592954", "rekha15@gmail.com");
+
+//Printing the added contact to console
+console.log(addressBook.toString());
